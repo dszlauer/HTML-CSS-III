@@ -50,9 +50,7 @@
 | <img style='width: 100px' src="./media/nav1.png" >  | <img style='width: 100px' src="./media/nav2.png" >  | <img style='width: 100px' src="./media/nav3.png" > | <img style='width: 100px' src="./media/nav4.png" >
 
 
-# Afternoon 
-
-## Site clone
+# Afternoon - Site clone
 
 ### focus on responsive design
 

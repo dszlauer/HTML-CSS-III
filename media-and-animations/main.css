@@ -1,0 +1,57 @@
+body {
+  background: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 900px;
+  height: 200px;
+  background-color: blue;
+  transition: 2s;
+  animation-name: fun;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fun {
+  0% {
+    width: 900px;
+    transform: rotate3d(0, 0, 0, 0turn);
+  }
+
+  50% {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    transform: rotate3d(1, 0, -1, 2turn);
+  }
+
+  100% {
+    width: 600px;
+    transform: rotate3d(1, 0, -1, -5turn);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .box {
+    width: 700px;
+    border-radius: 20px;
+    background-color: mediumseagreen;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .box {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: red;
+  }
+}
